@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 8px;
+  padding: 6px;
+  color: #fff;
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.container:hover {
+  background-color: red;
+}
+
+.selectedItem {
+  background-color: red;
+}
+
+.icon {
+  width: 14px;
+}
+
+.text{
+    font-size: 10px;
+}
